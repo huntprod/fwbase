@@ -71,4 +71,4 @@ The code for this Docker image is hosted at
 <https://github.com/huntprod/fwbase>.
 
 The Dockerfile is at
-<https://github.com/huntprd/fwbase/blob/master/Dockerfile>.
+<https://github.com/huntprod/fwbase/blob/master/Dockerfile>.
