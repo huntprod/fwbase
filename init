@@ -1,0 +1,13 @@
+#!/bin/sh
+
+if [ "x$#" != "x0" ]; then
+  exec "$@"
+  exit 1
+fi
+
+set -e
+if [ -f /etc/firewall.sh ]; then
+	/etc/firewall.sh
+fi
+iptables -L -nv
+exit 0
